@@ -12,7 +12,7 @@ st.title("🌫️ Dashboard Analisis Kualitas Udara (PM2.5)")
 # --- Load data ---
 @st.cache_data
 def load_data():
-    return pd.read_csv("air_quality.csv")
+    return pd.read_csv("dashboard/air_quality.csv")
 
 df = load_data()
 
